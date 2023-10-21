@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    color:rgb(17, 17, 213)
+}
+.padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.primera{
+    margin-right: 50px;
+    background: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.primera small{
+    font-size:14px;
+    font-style: italic;
+    display: block;
+    
+}
